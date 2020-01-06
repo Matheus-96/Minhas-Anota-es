@@ -24,6 +24,7 @@
 		0A4024E72358A274009214CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A4024EA2358A274009214CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A4024EC2358A274009214CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD83F6323A8094E00B20AF4 /* Minhas Anotacoes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Minhas Anotacoes.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		0A4024DD2358A273009214CE /* Minhas Anotacoes */ = {
 			isa = PBXGroup;
 			children = (
+				0AD83F6323A8094E00B20AF4 /* Minhas Anotacoes.entitlements */,
 				0A4024DE2358A273009214CE /* AppDelegate.swift */,
 				0A4024E02358A273009214CE /* SceneDelegate.swift */,
 				0A4024E22358A273009214CE /* ViewController.swift */,
@@ -284,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Minhas Anotacoes/Minhas Anotacoes.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQGJ46R62N;
 				INFOPLIST_FILE = "Minhas Anotacoes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Minhas Anotacoes/Minhas Anotacoes.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQGJ46R62N;
 				INFOPLIST_FILE = "Minhas Anotacoes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
